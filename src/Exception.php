@@ -1,4 +1,4 @@
-<?php namespace DaveJamesMiller\Breadcrumbs;
+<?php namespace Laracraft\Breadcrumbs;
 
 class Exception extends \Exception {
 }

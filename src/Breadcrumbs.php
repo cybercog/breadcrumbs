@@ -1,6 +1,6 @@
 <?php
 
-namespace DaveJamesMiller\Breadcrumbs;
+namespace Laracraft\Breadcrumbs;
 
 abstract class Breadcrumbs
 {

@@ -188,8 +188,8 @@ The following changes are optional because there are shims in place:
  Upgrading from 1.x to 2.x
 ----------------------------------------
 
-- In ``app/config/app.php`` change ``DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider`` to ``DaveJamesMiller\Breadcrumbs\ServiceProvider``
-- In ``app/config/app.php`` change ``DaveJamesMiller\Breadcrumbs\Facades\Breadcrumbs`` to ``DaveJamesMiller\Breadcrumbs\Facade``
+- In ``app/config/app.php`` change ``Laracraft\Breadcrumbs\BreadcrumbsServiceProvider`` to ``Laracraft\Breadcrumbs\ServiceProvider``
+- In ``app/config/app.php`` change ``Laracraft\Breadcrumbs\Facades\Breadcrumbs`` to ``Laracraft\Breadcrumbs\Facade``
 - The default template was changed from Bootstrap 2 to Bootstrap 3. See :ref:`Choose a template <choose-template>` if you need to switch it back.
 
 The following internal changes will not affect most people but if you have any problems please be aware of the following:

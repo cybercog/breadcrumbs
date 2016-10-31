@@ -1,4 +1,4 @@
-<?php namespace DaveJamesMiller\Breadcrumbs;
+<?php namespace Laracraft\Breadcrumbs;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\Container as ContainerContract;
@@ -126,7 +126,7 @@ class Generator {
 
         $parameters = [];
 
-        if(is_subclass_of($class, 'DaveJamesMiller\Breadcrumbs\Breadcrumbs')) {
+        if(is_subclass_of($class, 'Laracraft\Breadcrumbs\Breadcrumbs')) {
             array_shift($param_arr);
 
             $parameters = [$this];

@@ -1,6 +1,6 @@
 <?php
 
-namespace DaveJamesMiller\Breadcrumbs;
+namespace Laracraft\Breadcrumbs;
 
 use Illuminate\Routing\Route;
 use Illuminate\Support\Collection;

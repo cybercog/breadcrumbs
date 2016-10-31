@@ -61,7 +61,7 @@ Do not use the following keys in your data array, as they will be overwritten: `
  Defining breadcrumbs in a different file
 ================================================================================
 
-If you don't want to use ``routes/breadcrumbs.php`` (or ``app/Http/breadcrumbs.php`` in Laravel 5.2 and below), you can create a custom service provider to use instead of ``DaveJamesMiller\Breadcrumbs\ServiceProvider`` and override the ``registerBreadcrumbs()`` method:
+If you don't want to use ``routes/breadcrumbs.php`` (or ``app/Http/breadcrumbs.php`` in Laravel 5.2 and below), you can create a custom service provider to use instead of ``Laracraft\Breadcrumbs\ServiceProvider`` and override the ``registerBreadcrumbs()`` method:
 
 .. code-block:: php
 
@@ -69,7 +69,7 @@ If you don't want to use ``routes/breadcrumbs.php`` (or ``app/Http/breadcrumbs.p
 
     namespace App\Providers;
 
-    use DaveJamesMiller\Breadcrumbs\ServiceProvider;
+    use Laracraft\Breadcrumbs\ServiceProvider;
 
     class BreadcrumbsServiceProvider extends ServiceProvider
     {

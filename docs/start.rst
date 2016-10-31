@@ -44,7 +44,7 @@ Add the service provider to ``providers``:
 
     'providers' => [
         // ...
-        DaveJamesMiller\Breadcrumbs\ServiceProvider::class,
+        Laracraft\Breadcrumbs\ServiceProvider::class,
     ],
 
 And add the facade to ``aliases``:
@@ -53,7 +53,7 @@ And add the facade to ``aliases``:
 
     'aliases' => [
         // ...
-        'Breadcrumbs' => DaveJamesMiller\Breadcrumbs\Facade::class,
+        'Breadcrumbs' => Laracraft\Breadcrumbs\Facade::class,
     ],
 
 

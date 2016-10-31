@@ -7,7 +7,7 @@ class DependantServiceProviderErrorTest extends TestCase {
 		return [
 			// These are in the wrong order
 			DependantServiceProviderError::class,
-			DaveJamesMiller\Breadcrumbs\ServiceProvider::class,
+			Laracraft\Breadcrumbs\ServiceProvider::class,
 		];
 	}
 
@@ -17,7 +17,7 @@ class DependantServiceProviderErrorTest extends TestCase {
 	}
 
 	/**
-	 * @expectedException DaveJamesMiller\Breadcrumbs\Exception
+	 * @expectedException Laracraft\Breadcrumbs\Exception
 	 * @expectedExceptionMessage Breadcrumbs view not specified
 	 */
 	public function testRender()
