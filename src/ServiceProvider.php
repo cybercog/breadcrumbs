@@ -36,8 +36,7 @@ class ServiceProvider extends BaseServiceProvider {
 	        return new Generator(new Container(), $app['config']['breadcrumbs.namespace']);
         });
 
-		$this->app['breadcrumbs'] = $this->app->share(function($app)
-		{
+		$this->app->singleton('breadcrumbs', function ($app) {
 			$breadcrumbs = $this->app->make('Laracraft\Breadcrumbs\Manager');
 
 			$viewPath = __DIR__ . '/../views/';
